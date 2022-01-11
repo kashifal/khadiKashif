@@ -1,0 +1,1561 @@
+/*Googl Fonts Raleway and Roboto*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+/*Hello I have commented everything for you just see the classes from html 
+and change anything according to your taste Take care */
+/*HTML*/
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box; 
+} 
+html
+{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+/*Swiper.js*/
+/*Swiper.js*/
+/*Swiper.js*/
+.swiper {
+    width: 100%;
+    margin-top: 10vh;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    border-radius: 12px;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    transition: .4s all;
+  }
+  .swiper-slide:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: .4s all;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+  }
+  
+/*Swiper.js ended*/
+
+
+/*Navbar */
+/*Navbar */
+/*Navbar */
+
+
+nav{
+    border-bottom: 1px solid gray;
+    width: 100%;
+    height: 9vh;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.mob-nav{
+   display: none;
+    border-bottom: 1px solid gray;
+    width: 100%;
+    height: 9vh;
+    background: white;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.mob-logo{
+    padding-left: 10px;
+}
+.mob-nav .btn{
+    padding-right: 10px;
+}
+.mob-logo h1{
+    font-family: 'Raleway', calibri;
+    font-size: 25px;
+}
+.btn button{
+    border: none;
+    background: none;
+    font-size: 22px;
+}
+.text p{
+    font-size: 20px;
+}
+.logo{
+    padding-left: 25px;
+}
+.logo a{
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 28px;
+}
+.links a{
+    color: black;
+    text-decoration: none;
+    font-family: calibri;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.btns{
+    padding-right: 25px;
+}
+.btns a{
+    padding: 7px 25px;
+    text-decoration: none;
+}
+.btns a:nth-child(1)
+{
+    color: white;
+    background: #000;
+    font-family: calibri;
+    font-weight: 600;
+    letter-spacing: .1em;
+    border-radius:4px;
+    border: 1px solid transparent;
+}
+.btns a:nth-child(2)
+{
+    color: black;
+    border: 1px solid black;
+    font-family: calibri;
+    font-weight: 600;
+    letter-spacing: .1em;
+    border-radius:4px;
+    transition: .4s all;
+}
+.btns a:nth-child(2):hover{
+    background: #000;
+    color: white;
+    transition: .4s all;
+}
+.logo-mid{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background: #fde9db;
+    padding-top: 30px;
+}
+.logo-mid h1{
+    font-size: 32px;
+    font-family: 'Raleway', calibri;
+}
+.text p{
+    font-family: calibri;
+    padding-top: 40px;
+}
+#navToggler{
+    cursor: pointer;
+}.toggle{
+    width: 228px;
+    display: none;
+    height: 400px;
+    position:absolute;
+    right: 0%;
+    top: 9vh;
+    background: white;
+    box-shadow: -6px 2px 3px 1px rgba(0,0,0,0.57);
+    -webkit-box-shadow: -6px 2px 3px 1px rgba(0,0,0,0.57);
+    -moz-box-shadow: -6px 2px 3px 1px rgba(0,0,0,0.57);
+    transform: translateX(105%);
+    transition: .4s all;
+
+}
+.toggler{
+    transition: .4s all;
+    transform: translateX(0%);
+}
+
+.copyright
+{
+    height: 6vh;
+    width: 100vw;
+    background:#fde9db;
+    margin-bottom: 0%;
+    color: black;
+    display: flex;
+    align-items: center;
+    font-family: 'lato';
+    font-weight: bold;
+    justify-content: center;
+}
+/*navbar ended or it can have properties down one or two*/
+
+
+/*frontPage*/
+/*banner*/
+.mid{
+    height: 73vh;
+    width: 100%;
+    background: #fde9db;
+}
+.parent{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    gap:20%;
+}
+.text h1{
+    font: 45px sans-serif;
+    color: black;
+    font-family: 'Raleway', calibri;
+}
+.btns1{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px;
+    padding-top: 50px;
+}
+.btns1 a{
+    padding: 7px 25px;
+    text-decoration: none;
+}
+.btns1 a:nth-child(1)
+{
+    color: white;
+    background: #000;
+    font-family: calibri;
+    font-weight: 600;
+    letter-spacing: .1em;
+    border-radius:4px;
+    border: 1px solid transparent;
+}
+.btns1 a:nth-child(2)
+{
+    color: black;
+    border: 1px solid black;
+    font-family: calibri;
+    font-weight: 600;
+    letter-spacing: .1em;
+    border-radius:4px;
+    transition: .4s all;
+}
+.btns1 a:nth-child(2):hover{
+    background: #000;
+    color: white;
+    transition: .4s all;
+}
+.fig img{
+    height: 320px;
+    margin-top: 10px;
+}
+
+.inner{
+    max-width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   height: 100%;
+   gap: 10px;
+
+}
+.inner a{
+    text-decoration: none;
+    font-family: calibri;
+    color: black;
+   font-weight: bold;
+   letter-spacing: .2em;
+    padding: 8px 25px;
+    border-radius: 4px;
+}
+.inner a:hover{
+    transition: .4s all;
+    background: #fde9db;
+    
+}
+/**/
+/**/
+/**//**/
+/**/
+/**/
+.companies
+{
+    height: 30vh;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.trustBy
+{
+    height: 25%;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    color: gray;
+    margin-top: 20px;
+    font-family: 'Raleway', calibri;
+    letter-spacing: 3px;
+    margin-left: 6%;
+    font-size: 30px;
+}
+.logosC
+{
+    height: 75%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.logosC p i
+{
+    font-family: 'ubuntu', Courier, monospace;
+    font-size: 35px;
+    font-weight: bold;
+    color: grey;
+    font-family: 'Raleway', calibri;
+
+} 
+ 
+/**/
+/**/
+/**/
+/**/
+
+
+/*Gsap cursor change color here*/
+/**/
+
+.cursor{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #fde9db;
+    z-index: 2000;
+    user-select: none;
+    pointer-events: none;
+}
+
+.follower{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 140px;
+    height: 140px;
+    background: rgba(27, 207, 3, 0.7);
+    border-radius: 50%;
+    opacity: 0.7;
+    user-select: none;
+    pointer-events: none;
+}
+
+/*Gsap cursor ended*/
+/**/
+
+
+/*SwiperJs here i designed all box */
+.content{
+    height: 90%;
+    max-width: 75%;
+    margin: auto;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.content h3{
+    font-family: 'Ubuntu', calibri;
+}
+.image{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+}
+.imge img{
+    width: 100%;
+    height: 100%;
+} 
+.content p{
+    font-family: calibri;
+    text-align: justified;
+}
+.content a{
+    color: white;
+    background: black;
+    font-family: calibri;
+    text-decoration: none;
+    padding: 8px 25px;
+    border-radius: 5px;
+    font-weight: 700;
+    letter-spacing: .1em;
+}
+
+/*SwiperJs here ended */
+
+
+
+/*3steps solutions*/
+.steps
+{
+    min-height: 100vh;
+    width: 100vw;
+    background: #fde9db;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.solution
+{
+    height: 80%;   
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.sol-text
+{
+     color: rgb(90, 90, 90);
+    height: 30%;
+    font-size: 40px;
+    width: 100%;
+    font-family: 'Raleway', calibri;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sol-3
+{ 
+    height: 70%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.sol-3-1, .sol-3-2, .sol-3-3
+{
+    height: 80%;
+    width: 24vw; 
+    display: flex;
+    align-items: left;
+    justify-content: space-around;
+    flex-direction: column;
+    color: rgb(117, 117, 117) ;
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+}
+.sol-3-1 h1
+{
+    font-size: 50px;
+    margin-top: 3vh;
+
+}
+.sol-3-1 h4
+{
+    font-size: 30px; 
+    margin-top:4vh ;
+}
+.sol-3-1 p
+{
+    font-size: 20px; 
+} 
+
+/*
+.backImage
+{
+height: 65vh;
+position: relative;
+width: 100vw;
+background-image: url('https://images.unsplash.com/photo-1531497865144-0464ef8fb9a9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fHRlYW18ZW58MHx8MHx8&auto=format&fit=crop&w=400&q=60');
+background-attachment: fixed;
+background-size: cover;
+background-position: center;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+*/
+
+
+/*features*/
+/*features*/
+/*features*/
+/*features*/
+.features
+{
+    height: 40vh;
+    width: 100vw;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'roboto';
+    text-align: center;
+}
+.features h2
+{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.allFeatures
+{
+    min-height: 150vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.features9
+{
+    height: 100%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.f9
+{
+    height:50vh;
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.f9_1
+{
+    height: 75%;
+    width: 24%;
+    background: rgb(255, 255, 255);
+    justify-content: center;
+    display: flex;
+    font-family: 'roboto';
+    align-items: center; 
+    flex-direction: column;
+    border-radius: 8px;-webkit-box-shadow: 2px -1px 5px -3px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 2px -1px 5px -3px rgba(66, 68, 90, 1);
+    box-shadow: 2px -1px 5px -3px rgba(66, 68, 90, 1);
+  transition: 0.3s ease-in-out;
+
+}
+.f9_1:hover
+{
+  box-shadow: -3px 5px 5px -3px rgba(66, 68, 90, 1);  transition: 0.2s ease-in-out; 
+
+}
+.f9_2:hover
+{
+  box-shadow: -3px 5px 5px -3px rgba(66, 68, 90, 1); transition: 0.2s ease-in-out;
+
+}
+.f9_3:hover
+{
+  box-shadow: -3px 5px 5px -3px rgba(66, 68, 90, 1); transition: 0.2s ease-in-out;
+
+}
+.f9_2
+{
+    height: 75%;
+    font-family: 'roboto';
+    width: 24%;
+    background: rgb(255, 255, 255);
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    align-items: center; 
+    border-radius: 8px;-webkit-box-shadow: 2px -1px 5px -3px rgba(66, 68, 90, 1);
+-moz-box-shadow: 2px -1px 5px -3px rgba(66, 68, 90, 1);
+box-shadow: 2px -1px 5px -3px rgba(66, 68, 90, 1);
+
+}
+.f9_2 img, .f9_3 img, .f9_1 img
+{
+    width: 30%;
+}
+.f9_3
+{
+    height: 75%;
+    width: 24%;
+    background: rgb(255, 255, 255);
+    justify-content: center;
+    display: flex;
+    align-items: center; 
+    font-family: 'roboto';
+    flex-direction: column;
+    border-radius: 8px;-webkit-box-shadow: 2px -1px 5px -3px rgba(66, 68, 90, 1);
+-moz-box-shadow: 2px -1px 5px -3px rgba(66, 68, 90, 1);
+box-shadow: 2px -1px 5px -3px rgba(66, 68, 90, 1);
+
+}
+.f8
+{
+    height:50vh;
+    width: 100%;
+    background: rgb(0, 119, 255);
+}
+
+.f7
+{
+    height:50vh;
+    width: 100%;
+    background: rgb(255, 0, 157);
+}
+
+/*features ended*/
+/*features ended*/
+.flags img
+{
+    animation: kay .8s linear infinite;
+}
+
+@keyframes kay {
+    0%{transform: translateX(-0%);}
+    50%
+    {
+        transform: translateX(-2200%);
+    }
+    50%,100%
+    {
+        transform: translateX(-0%);
+    }
+}
+
+/*Login and Register*/
+/*Login and Register*/
+.AuthExample
+{
+    min-height: 100vh;
+    width: 100vw;
+    margin-top: 10vh;
+    margin-bottom: 8vh;
+    overflow: hidden;
+    background: #fde9db;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.authentication
+{
+    height: 90%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.login
+{
+    height: 100%;
+    width: 50%; 
+    display: flex;
+    border-right: 1px solid white;
+    align-items: center;
+    justify-content: center;  
+}
+
+.login60
+{
+    height: 80%;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    text-align: left;
+}
+
+.login_text
+{
+    width: 100%;
+    line-height: 70px;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+form
+{
+    font-family: 'raleway';
+    text-align: left;
+    width: 100%;
+}
+.loginForm input
+{
+    padding: 10px 10px;
+    width: 80%;
+    height: 20%;
+    margin-left: 5%;
+    margin-top: 10px;
+    border-radius: 7px;
+    border:1px solid gray;
+    outline: none;
+    font-family: 'Lato', sans-serif;
+    text-align: left; 
+}
+
+
+
+.loginForm label
+{
+    font-size: 25px;
+    margin-top:10px;font-family: 'Lato', sans-serif;
+}
+.login_btn
+{
+    margin-left: 5%;
+    padding: 10px 10px;
+    height: 25%;
+    width: 30%;
+    border-radius: 7px;
+    border:1px solid gray;
+    margin-top: 10%;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background: black;
+    border: transparent;
+    outline: none;
+    transition: 0.3s ease;
+}
+ 
+
+.login_btn:hover
+{
+    color: black;
+    background: transparent;
+    border: 1px solid gray;
+}
+
+
+
+
+
+.register
+{
+    height: 100%;
+    width: 50%; 
+    background: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    border-left: 1px solid white;
+    background-color: #fde9db;
+    justify-content: center;  
+}
+
+.register60
+{
+    height: 80%;
+    width: 70%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    text-align: left;
+}
+.register_btn
+{
+    margin-left: 5%;
+    padding: 10px 10px;
+    height: 25%;
+    width: 30%;
+    border-radius: 7px; 
+    margin-top: 10%;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
+    border: transparent;
+    outline: none;
+    transition: 0.3s ease;
+}
+.register_btn:hover
+{
+    color: rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+    border: 1px solid gray;
+}
+
+.registerForm input
+{
+    padding: 10px 10px;
+    width: 80%;
+    height: 16%;
+    margin-left: 5%;
+    margin-top: 10px;
+    border-radius: 7px;
+    border:1px solid gray;
+    outline: none;
+    font-family: 'Lato', sans-serif;
+    text-align: left; 
+}
+
+
+
+.registerForm label
+{
+    font-size: 25px;
+    margin-top:10px;font-family: 'Lato', sans-serif;
+}
+
+
+
+
+
+
+
+/*Footer Here*/
+/*Footer Here*/
+/*Footer Here*/
+/*Footer Here*/
+footer
+{
+    margin-top: 10vh;
+    height: 100vh;
+    width: 100vw; 
+    background: #fde9db; 
+    z-index: -1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}  
+
+footer h2
+{
+    font-family: 'Raleway';
+    font-size: 50px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    color: gray;
+}
+footer a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 18px 50px;
+    border: 2px solid rgb(0, 0, 0);
+    background: rgb(0, 0, 0);
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: 'ubuntu';
+    transition: 0.2s ease;
+}
+footer a:hover
+{
+    background: #fde9db;
+    color: black;
+}
+
+/*Footer ended*/
+
+
+
+
+/*Media Queries Good Luck*/
+/*Media Queries Good Luck*/
+/*Media Queries Good Luck*/
+/*Media Queries Good Luck*/
+/*Media Queries Good Luck*/
+/*Media Queries Good Luck*/
+/*Media Queries Good Luck*/
+/*Media Queries Good Luck*/
+/*Media Queries Good Luck*/
+/*Media Queries Good Luck*/
+/*Media Queries Good Luck*/
+/*Media Queries Good Luck*/
+/*Media Queries Good Luck*/
+/*Media Queries Good Luck*/
+/*Media Queries Good Luck 1013px*/
+
+@media all and (max-width:1013px)
+{
+    
+    body{
+        overflow-x: hidden;
+    }
+   
+    .parent {
+        gap: 200px;
+    }
+    .text h1{
+        font-size: 35px;
+    }
+}
+
+
+/*Media Queries Good Luck 880px*/
+/*Media Queries Good Luck 880px*/ 
+@media all and (max-width:880px)
+{
+  
+    .parent{
+        gap: 150px;
+    }
+    .text h1{
+        font-size: 30px;
+        text-align: left;
+    }
+    .fig img{
+        height: 300px;
+    }
+    .sol-3
+{ 
+    height: 70%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.sol-3-1, .sol-3-2, .sol-3-3
+{
+    height: 80%;
+    width: 70vw; 
+    margin-top: 5vh;
+    display: flex;
+    align-items: left;
+    justify-content: space-around;
+    flex-direction: column;
+    color: rgb(117, 117, 117) ;
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+}
+.sol-text
+{
+     color: rgb(90, 90, 90);
+    height: 30%;
+    font-size: 30px;
+    width: 100%;
+    font-family: 'Raleway', calibri;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.f9
+{
+    height:220vh;
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.f9_1
+{
+    height: 100%;
+    width: 60%;
+    background: rgb(255, 255, 255);
+    justify-content: center;
+    display: flex;
+    font-family: 'roboto';
+    align-items: center; 
+    flex-direction: column;
+    border-radius: 8px;-webkit-box-shadow: 2px -1px 5px -3px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 2px -1px 5px -3px rgba(66, 68, 90, 1);
+    box-shadow: 2px -1px 5px -3px rgba(66, 68, 90, 1);
+  transition: 0.3s ease-in-out;
+
+}
+.f9_2
+{
+    height: 100%;
+    font-family: 'roboto';
+    width: 60%;
+    background: rgb(255, 255, 255);
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    align-items: center; 
+    border-radius: 8px;-webkit-box-shadow: 2px -1px 5px -3px rgba(66, 68, 90, 1);
+-moz-box-shadow: 2px -1px 5px -3px rgba(66, 68, 90, 1);
+box-shadow: 2px -1px 5px -3px rgba(66, 68, 90, 1);
+
+}
+
+.f9_3
+{
+    height: 100%;
+    width: 60%;
+    background: rgb(255, 255, 255);
+    justify-content: center;
+    display: flex;
+    align-items: center; 
+    font-family: 'roboto';
+    flex-direction: column;
+    border-radius: 8px;-webkit-box-shadow: 2px -1px 5px -3px rgba(66, 68, 90, 1);
+-moz-box-shadow: 2px -1px 5px -3px rgba(66, 68, 90, 1);
+box-shadow: 2px -1px 5px -3px rgba(66, 68, 90, 1);
+
+}
+footer h2
+{
+    font-family: 'Raleway';
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: bold;
+    color: gray;
+}
+.login_btn
+{
+    margin-left: 5%;
+    padding: 6px 6px;
+    height: 15%;
+    width: 30%;
+    border-radius: 7px;
+    border:1px solid gray;
+    margin-top: 10%;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background: black;
+    border: transparent;
+    outline: none;
+    transition: 0.3s ease;
+}
+    .loginForm input
+{
+    padding: 10px 10px;
+    width: 90%;
+    height: 15%;
+    margin-left: 5%;
+    margin-top: 10px;
+    border-radius: 7px;
+    border:1px solid gray;
+    outline: none;
+    font-family: 'Lato', sans-serif;
+    text-align: left; 
+}
+
+.register_btn
+{
+    margin-left: 5%;
+    padding: 6px 6px;
+    height: 15%;
+    width: 30%;
+    border-radius: 7px;
+    border:1px solid gray;
+    margin-top: 10%;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background: black;
+    border: transparent;
+    outline: none;
+    transition: 0.3s ease;
+}
+    .registerForm input
+{
+    padding: 10px 10px;
+    width: 90%;
+    height: 12%;
+    margin-left: 5%;
+    margin-top: 10px;
+    border-radius: 7px;
+    border:1px solid gray;
+    outline: none;
+    font-family: 'Lato', sans-serif;
+    text-align: left; 
+}
+}
+
+
+/*Media Queries Good Luck 780px*/ 
+/*Media Queries Good Luck 780px*/ 
+@media all and (max-width:780px)
+{
+    .parent{
+        gap: 120px;
+    }
+    .fig img{
+        height: 250px;
+    }
+    .btns a{
+        
+        padding:7px 20px ;
+    }
+    .btns1 a{
+        padding:7px 20px ;
+    }
+    .logosC p i
+{ 
+    margin-top: 30px;
+    font-size: 26px;
+    font-weight: bold;
+    color: grey;
+    font-family: 'Raleway', calibri;
+
+} 
+.login_btn
+{
+    margin-left: 5%;
+    padding: 6px 6px;
+    height: 15%;
+    width: 30%;
+    border-radius: 7px;
+    border:1px solid gray;
+    margin-top: 10%;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background: black;
+    border: transparent;
+    outline: none;
+    transition: 0.3s ease;
+}
+    .loginForm input
+{
+    padding: 10px 10px;
+    width: 90%;
+    height: 15%;
+    margin-left: 5%;
+    margin-top: 10px;
+    border-radius: 7px;
+    border:1px solid gray;
+    outline: none;
+    font-family: 'Lato', sans-serif;
+    text-align: left; 
+}
+
+.register_btn
+{
+    margin-left: 5%;
+    padding: 6px 6px;
+    height: 15%;
+    width: 30%;
+    border-radius: 7px;
+    border:1px solid gray;
+    margin-top: 10%;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background: black;
+    border: transparent;
+    outline: none;
+    transition: 0.3s ease;
+}
+    .registerForm input
+{
+    padding: 10px 10px;
+    width: 90%;
+    height: 12%;
+    margin-left: 5%;
+    margin-top: 10px;
+    border-radius: 7px;
+    border:1px solid gray;
+    outline: none;
+    font-family: 'Lato', sans-serif;
+    text-align: left; 
+}
+    
+}
+
+
+/*Media Queries Good Luck 680px*/ 
+/*Media Queries Good Luck 680px*/ 
+@media all and (max-width:680px)
+{
+    nav{
+        display: none;
+    }
+    .fig{
+        display: none;
+    }
+    .parent{
+        gap: 0px;
+        text-align: left;
+        justify-content: start;
+    }
+    .text h1{
+        font-size: 35px;
+        text-align: left;
+        margin-left: 10px;
+    }
+    .btns1{
+        justify-content: center;
+        align-items: center;
+    }
+    .mob-nav{
+        display: flex;
+    }
+    .logo-mid{
+        display: flex;
+    }
+    .text p{
+        text-align: left;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 20px;
+    }
+    .text p br{
+        display: none;
+    }
+  
+ 
+
+.cursor{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%; 
+    z-index: 2000;
+    user-select: none;
+    pointer-events: none;
+}
+
+.follower{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height:100px;
+    background-color: rgb(57, 236, 2,0.7);
+    border-radius: 50%;
+    opacity: 0.7;
+    user-select: none;
+    pointer-events: none;
+}
+.sol-3
+{ 
+    height: 70%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.sol-3-1, .sol-3-2, .sol-3-3
+{
+    height: 80%;
+    width: 70vw; 
+    margin-top: 5vh;
+    display: flex;
+    align-items: left;
+    justify-content: space-around;
+    flex-direction: column;
+    color: rgb(117, 117, 117) ;
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+}
+.sol-text
+{
+     color: rgb(90, 90, 90);
+    height: 30%;
+    font-size: 30px;
+    width: 100%;
+    font-family: 'Raleway', calibri;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.f9
+{
+    height:220vh;
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.f9_1
+{
+    height: 30%;
+    width: 70%;
+    margin-top: 10vh;
+    background: rgb(255, 255, 255);
+    justify-content: center;
+    display: flex;
+    font-family: 'roboto';
+    align-items: center; 
+    flex-direction: column;
+    border-radius: 8px;-webkit-box-shadow: 2px -1px 5px -3px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 2px -1px 5px -3px rgba(66, 68, 90, 1);
+    box-shadow: 2px -1px 5px -3px rgba(66, 68, 90, 1);
+  transition: 0.3s ease-in-out;
+
+}
+.f9_2
+{
+    height:30%;
+    font-family: 'roboto';
+    margin-top: 10vh;
+    width: 70%;
+    background: rgb(255, 255, 255);
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    align-items: center; 
+    border-radius: 8px;-webkit-box-shadow: 2px -1px 5px -3px rgba(66, 68, 90, 1);
+-moz-box-shadow: 2px -1px 5px -3px rgba(66, 68, 90, 1);
+box-shadow: 2px -1px 5px -3px rgba(66, 68, 90, 1);
+
+} 
+
+.f9_3
+{
+    height: 30%;
+    margin-top: 10vh;
+    width: 70%;
+    background: rgb(255, 255, 255);
+    justify-content: center;
+    display: flex;
+    align-items: center; 
+    font-family: 'roboto';
+    flex-direction: column;
+    border-radius: 8px;-webkit-box-shadow: 2px -1px 5px -3px rgba(66, 68, 90, 1);
+-moz-box-shadow: 2px -1px 5px -3px rgba(66, 68, 90, 1);
+box-shadow: 2px -1px 5px -3px rgba(66, 68, 90, 1);
+
+}
+.features h2
+{
+    font-weight: bold;
+    font-size:30px;
+}
+.features p
+{
+    font-size: 12px;
+}
+
+.authentication
+{
+    height: 100%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.login_btn
+{
+    margin-left: 5%;
+    padding: 6px 6px;
+    height: 15%;
+    width: 30%;
+    border-radius: 7px;
+    border:1px solid gray;
+    margin-top: 10%;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background: black;
+    border: transparent;
+    outline: none;
+    transition: 0.3s ease;
+}
+.register
+{
+    margin-top: 10vh;
+    background: transparent;
+    width: 80%;
+    min-height: 100%;
+    z-index: 1;
+    border: none;
+    border-top: 1px solid white;
+    margin-top: 10vh;
+}
+    .loginForm input
+{
+    padding: 10px 10px;
+    width: 90%;
+    height: 15%;
+    margin-left: 5%;
+    margin-top: 5px;
+    border-radius: 7px;
+    border:1px solid gray;
+    outline: none;
+    font-family: 'Lato', sans-serif;
+    text-align: left; 
+}
+
+.register_btn
+{
+    margin-left: 5%;
+    padding: 6px 6px;
+    height: 15%;
+    width: 30%;
+    border-radius: 7px;
+    border:1px solid gray; 
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background: black;
+    border: transparent;
+    outline: none;
+    margin-bottom: 5vh;
+    transition: 0.3s ease;
+}
+    .registerForm input
+{
+    padding: 10px 10px;
+    width: 90%;
+    height: 12%;
+    margin-left: 5%;
+    margin-top: 10px;
+    border-radius: 7px;
+    border:1px solid gray;
+    outline: none;
+    font-family: 'Lato', sans-serif;
+    text-align: left; 
+}
+
+.register60
+{
+    height: 100%;
+    width: 90%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    text-align: left;
+} 
+.login
+{
+    width: 80%;
+    border: none;
+}
+
+.login60
+{
+    height: 100%;
+    width: 90%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    text-align: left;
+} 
+
+
+.AuthExample
+{
+    min-height: 150vh;
+    width: 100vw;
+    margin-top: 5vh;
+    margin-bottom: 8vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}  
+}
+
+/*Media Queries Good Luck 360px*/ 
+/*Media Queries Good Luck 360px*/ 
+@media all and (max-width:360px)
+{
+    .text h1{
+        font-size: 30px;
+    }
+    .text p{
+        font-size: 17px;
+    }
+    .text p br{
+        display: block;
+    }
+    .sol-3
+    { 
+        height: 70%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    
+    .sol-3-1, .sol-3-2, .sol-3-3
+    {
+        height: 80%;
+        width: 70vw; 
+        margin-top: 8vh;
+        display: flex;
+        align-items: left;
+        justify-content: space-around;
+        flex-direction: column;
+        color: rgb(117, 117, 117) ;
+        font-family: 'Lato', sans-serif;
+        font-weight: normal;
+    }
+    .sol-text
+    {
+         color: rgb(90, 90, 90);
+        height: 30%;
+        font-size: 30px;
+        width: 100%;
+        font-family: 'Raleway', calibri;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+.f9_1
+{
+    height: 20%;
+    width: 80%;
+    margin-top: 10vh;
+    background: rgb(255, 255, 255);
+    justify-content: center;
+    display: flex;
+    font-family: 'roboto';
+    align-items: center; 
+    flex-direction: column;
+    border-radius: 8px;-webkit-box-shadow: 2px -1px 5px -3px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 2px -1px 5px -3px rgba(66, 68, 90, 1);
+    box-shadow: 2px -1px 5px -3px rgba(66, 68, 90, 1);
+  transition: 0.3s ease-in-out;
+
+}
+.f9_2
+{
+    height:30%;
+    font-family: 'roboto';
+    margin-top: 10vh;
+    width: 80%;
+    background: rgb(255, 255, 255);
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    align-items: center; 
+    border-radius: 8px;-webkit-box-shadow: 2px -1px 5px -3px rgba(66, 68, 90, 1);
+-moz-box-shadow: 2px -1px 5px -3px rgba(66, 68, 90, 1);
+box-shadow: 2px -1px 5px -3px rgba(66, 68, 90, 1);
+
+}
+
+.f9_3
+{
+    height: 30%;
+    margin-top: 10vh;
+    width: 80%;
+    background: rgb(255, 255, 255);
+    justify-content: center;
+    display: flex;
+    align-items: center; 
+    font-family: 'roboto';
+    flex-direction: column;
+    border-radius: 8px;-webkit-box-shadow: 2px -1px 5px -3px rgba(66, 68, 90, 1);
+-moz-box-shadow: 2px -1px 5px -3px rgba(66, 68, 90, 1);
+box-shadow: 2px -1px 5px -3px rgba(66, 68, 90, 1);
+
+}
+}
+
+
+
+
+/*Hello I have commented everything for you just see the classes from html 
+and change anything according to your taste Take care */
