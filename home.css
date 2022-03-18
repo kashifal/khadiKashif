@@ -10,6 +10,7 @@ and change anything according to your taste Take care */
     padding: 0%;
     margin: 0%;
     box-sizing: border-box; 
+    font-family: 'poppins';
 } 
 html
 {
@@ -106,8 +107,8 @@ nav{
     color: black;
     text-decoration: none;
     font-family: calibri;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .btns{
     padding-right: 25px;
